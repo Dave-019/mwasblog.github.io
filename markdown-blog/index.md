@@ -1,4 +1,25 @@
-# Welcome to SkunkHTML!
+# My Blog
 
-This is an ultra-simple blog generator built on Markdown files. Just fork this repository, and GitHub Actions will automatically create your blog. To add a new post, simply create another Markdown file with a date in its filename 🦨 — Markdown in, GitHub Pages out! No coding!
+Sharing knowledge, one post at a time.
 
+---
+
+## Posts
+
+- [Blogging with Markdown](#blogging-with-markdown)
+- [GitHub Pages Setup](#github-pages-setup)
+- [Vue.js Basics](#vuejs-basics)
+
+---
+
+## Blogging with Markdown
+
+Markdown makes writing easy. You can add:
+
+- **Headers**: For titles and sections.
+- **Lists**: Like this one.
+- **Code**: Simple examples.
+
+Example:
+```javascript
+console.log('Markdown is great!');
