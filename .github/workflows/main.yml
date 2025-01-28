@@ -28,11 +28,10 @@ jobs:
       - name: Run F# code to generate HTML
         run: dotnet run --project skunk-html.fsproj
 
-      - name: Upload Pages artifact
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: "./skunk-html-output"
-          name: github-pages  # Ensure only one artifact is uploaded with this name.
 
       - name: Deploy to GitHub Pages
         id: deployment
